@@ -23,7 +23,7 @@
     leftMenu.height = 300;
     leftMenu.width = 200;
     leftMenu.y = 60;
-    leftMenu.backgroundColor = JSRandomColor;
+    
     
     [self.view addSubview:leftMenu];
 }

@@ -16,6 +16,7 @@
 		B34352B61DB8AA57004A43B0 /* sidebar_bg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B34352B51DB8AA57004A43B0 /* sidebar_bg@2x.jpg */; };
 		B34352B91DB8ABD1004A43B0 /* JSLeftMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B34352B81DB8ABD1004A43B0 /* JSLeftMenu.m */; };
 		B34352C21DB8AEDB004A43B0 /* UIView+JSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B34352C11DB8AEDB004A43B0 /* UIView+JSExtension.m */; };
+		B34352C51DB8CEAD004A43B0 /* UIImage+JSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B34352C41DB8CEAD004A43B0 /* UIImage+JSExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		B34352BE1DB8ADD6004A43B0 /* JSPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPrefixHeader.pch; sourceTree = "<group>"; };
 		B34352C01DB8AEDB004A43B0 /* UIView+JSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JSExtension.h"; sourceTree = "<group>"; };
 		B34352C11DB8AEDB004A43B0 /* UIView+JSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JSExtension.m"; sourceTree = "<group>"; };
+		B34352C31DB8CEAD004A43B0 /* UIImage+JSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JSExtension.h"; sourceTree = "<group>"; };
+		B34352C41DB8CEAD004A43B0 /* UIImage+JSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JSExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 			children = (
 				B34352C01DB8AEDB004A43B0 /* UIView+JSExtension.h */,
 				B34352C11DB8AEDB004A43B0 /* UIView+JSExtension.m */,
+				B34352C31DB8CEAD004A43B0 /* UIImage+JSExtension.h */,
+				B34352C41DB8CEAD004A43B0 /* UIImage+JSExtension.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -186,6 +191,7 @@
 			files = (
 				B34352B91DB8ABD1004A43B0 /* JSLeftMenu.m in Sources */,
 				B34352A01DB7619A004A43B0 /* AppDelegate.m in Sources */,
+				B34352C51DB8CEAD004A43B0 /* UIImage+JSExtension.m in Sources */,
 				B34352B41DB8A9E0004A43B0 /* JSMainViewController.m in Sources */,
 				B343529D1DB7619A004A43B0 /* main.m in Sources */,
 				B34352C21DB8AEDB004A43B0 /* UIView+JSExtension.m in Sources */,

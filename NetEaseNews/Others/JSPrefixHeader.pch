@@ -12,9 +12,12 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 #import "UIView+JSExtension.h"
+#import "UIImage+JSExtension.h"
 
 // 颜色
 #define JSColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define JSColorRGBA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+
 // 随机颜色
 #define JSRandomColor JSColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
 
