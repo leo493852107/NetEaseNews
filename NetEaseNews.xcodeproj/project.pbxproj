@@ -7,37 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B343529D1DB7619A004A43B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B343529C1DB7619A004A43B0 /* main.m */; };
-		B34352A01DB7619A004A43B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B343529F1DB7619A004A43B0 /* AppDelegate.m */; };
 		B34352A61DB7619A004A43B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B34352A41DB7619A004A43B0 /* Main.storyboard */; };
 		B34352A81DB7619A004A43B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B34352A71DB7619A004A43B0 /* Assets.xcassets */; };
 		B34352AB1DB7619A004A43B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B34352A91DB7619A004A43B0 /* LaunchScreen.storyboard */; };
-		B34352B41DB8A9E0004A43B0 /* JSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B34352B31DB8A9E0004A43B0 /* JSMainViewController.m */; };
 		B34352B61DB8AA57004A43B0 /* sidebar_bg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B34352B51DB8AA57004A43B0 /* sidebar_bg@2x.jpg */; };
-		B34352B91DB8ABD1004A43B0 /* JSLeftMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B34352B81DB8ABD1004A43B0 /* JSLeftMenu.m */; };
-		B34352C21DB8AEDB004A43B0 /* UIView+JSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B34352C11DB8AEDB004A43B0 /* UIView+JSExtension.m */; };
-		B34352C51DB8CEAD004A43B0 /* UIImage+JSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B34352C41DB8CEAD004A43B0 /* UIImage+JSExtension.m */; };
+		B34352DB1DB8D564004A43B0 /* UIImage+JSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B34352CC1DB8D564004A43B0 /* UIImage+JSExtension.m */; };
+		B34352DC1DB8D564004A43B0 /* UIView+JSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B34352CE1DB8D564004A43B0 /* UIView+JSExtension.m */; };
+		B34352DD1DB8D564004A43B0 /* JSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B34352D11DB8D564004A43B0 /* JSMainViewController.m */; };
+		B34352DE1DB8D564004A43B0 /* JSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B34352D31DB8D564004A43B0 /* JSNavigationController.m */; };
+		B34352DF1DB8D564004A43B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B34352D61DB8D564004A43B0 /* AppDelegate.m */; };
+		B34352E01DB8D564004A43B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B34352D71DB8D564004A43B0 /* main.m */; };
+		B34352E11DB8D564004A43B0 /* JSLeftMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B34352DA1DB8D564004A43B0 /* JSLeftMenu.m */; };
+		B34352E81DB8D8BC004A43B0 /* JSNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B34352E71DB8D8BC004A43B0 /* JSNewsViewController.m */; };
+		B34352EB1DB8DA43004A43B0 /* JSTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B34352EA1DB8DA43004A43B0 /* JSTitleView.m */; };
+		B34352F11DB8DD6B004A43B0 /* UIBarButtonItem+JSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B34352F01DB8DD6B004A43B0 /* UIBarButtonItem+JSExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B34352981DB7619A004A43B0 /* NetEaseNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetEaseNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B343529C1DB7619A004A43B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B343529E1DB7619A004A43B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B343529F1DB7619A004A43B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B34352A51DB7619A004A43B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B34352A71DB7619A004A43B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B34352AA1DB7619A004A43B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B34352AC1DB7619A004A43B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B34352B21DB8A9E0004A43B0 /* JSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSMainViewController.h; sourceTree = "<group>"; };
-		B34352B31DB8A9E0004A43B0 /* JSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSMainViewController.m; sourceTree = "<group>"; };
 		B34352B51DB8AA57004A43B0 /* sidebar_bg@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sidebar_bg@2x.jpg"; sourceTree = "<group>"; };
-		B34352B71DB8ABD1004A43B0 /* JSLeftMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSLeftMenu.h; sourceTree = "<group>"; };
-		B34352B81DB8ABD1004A43B0 /* JSLeftMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSLeftMenu.m; sourceTree = "<group>"; };
-		B34352BE1DB8ADD6004A43B0 /* JSPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPrefixHeader.pch; sourceTree = "<group>"; };
-		B34352C01DB8AEDB004A43B0 /* UIView+JSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JSExtension.h"; sourceTree = "<group>"; };
-		B34352C11DB8AEDB004A43B0 /* UIView+JSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JSExtension.m"; sourceTree = "<group>"; };
-		B34352C31DB8CEAD004A43B0 /* UIImage+JSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JSExtension.h"; sourceTree = "<group>"; };
-		B34352C41DB8CEAD004A43B0 /* UIImage+JSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JSExtension.m"; sourceTree = "<group>"; };
+		B34352CB1DB8D564004A43B0 /* UIImage+JSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JSExtension.h"; sourceTree = "<group>"; };
+		B34352CC1DB8D564004A43B0 /* UIImage+JSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JSExtension.m"; sourceTree = "<group>"; };
+		B34352CD1DB8D564004A43B0 /* UIView+JSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JSExtension.h"; sourceTree = "<group>"; };
+		B34352CE1DB8D564004A43B0 /* UIView+JSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JSExtension.m"; sourceTree = "<group>"; };
+		B34352D01DB8D564004A43B0 /* JSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSMainViewController.h; sourceTree = "<group>"; };
+		B34352D11DB8D564004A43B0 /* JSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSMainViewController.m; sourceTree = "<group>"; };
+		B34352D21DB8D564004A43B0 /* JSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSNavigationController.h; sourceTree = "<group>"; };
+		B34352D31DB8D564004A43B0 /* JSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSNavigationController.m; sourceTree = "<group>"; };
+		B34352D51DB8D564004A43B0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B34352D61DB8D564004A43B0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B34352D71DB8D564004A43B0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B34352D91DB8D564004A43B0 /* JSLeftMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSLeftMenu.h; sourceTree = "<group>"; };
+		B34352DA1DB8D564004A43B0 /* JSLeftMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSLeftMenu.m; sourceTree = "<group>"; };
+		B34352E21DB8D5A8004A43B0 /* JSPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSPrefixHeader.pch; sourceTree = "<group>"; };
+		B34352E61DB8D8BC004A43B0 /* JSNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSNewsViewController.h; sourceTree = "<group>"; };
+		B34352E71DB8D8BC004A43B0 /* JSNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSNewsViewController.m; sourceTree = "<group>"; };
+		B34352E91DB8DA43004A43B0 /* JSTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTitleView.h; sourceTree = "<group>"; };
+		B34352EA1DB8DA43004A43B0 /* JSTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTitleView.m; sourceTree = "<group>"; };
+		B34352EF1DB8DD6B004A43B0 /* UIBarButtonItem+JSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+JSExtension.h"; sourceTree = "<group>"; };
+		B34352F01DB8DD6B004A43B0 /* UIBarButtonItem+JSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+JSExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,17 +82,7 @@
 		B343529A1DB7619A004A43B0 /* NetEaseNews */ = {
 			isa = PBXGroup;
 			children = (
-				B343529E1DB7619A004A43B0 /* AppDelegate.h */,
-				B343529F1DB7619A004A43B0 /* AppDelegate.m */,
-				B34352B21DB8A9E0004A43B0 /* JSMainViewController.h */,
-				B34352B31DB8A9E0004A43B0 /* JSMainViewController.m */,
-				B34352B71DB8ABD1004A43B0 /* JSLeftMenu.h */,
-				B34352B81DB8ABD1004A43B0 /* JSLeftMenu.m */,
-				B34352BD1DB8ADD6004A43B0 /* Others */,
-				B34352A41DB7619A004A43B0 /* Main.storyboard */,
-				B34352A71DB7619A004A43B0 /* Assets.xcassets */,
-				B34352A91DB7619A004A43B0 /* LaunchScreen.storyboard */,
-				B34352AC1DB7619A004A43B0 /* Info.plist */,
+				B34352C91DB8D564004A43B0 /* Classes */,
 				B343529B1DB7619A004A43B0 /* Supporting Files */,
 			);
 			path = NetEaseNews;
@@ -89,30 +91,72 @@
 		B343529B1DB7619A004A43B0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B34352A41DB7619A004A43B0 /* Main.storyboard */,
+				B34352A71DB7619A004A43B0 /* Assets.xcassets */,
+				B34352A91DB7619A004A43B0 /* LaunchScreen.storyboard */,
+				B34352AC1DB7619A004A43B0 /* Info.plist */,
+				B34352E21DB8D5A8004A43B0 /* JSPrefixHeader.pch */,
 				B34352B51DB8AA57004A43B0 /* sidebar_bg@2x.jpg */,
-				B343529C1DB7619A004A43B0 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B34352BD1DB8ADD6004A43B0 /* Others */ = {
+		B34352C91DB8D564004A43B0 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B34352BF1DB8AE69004A43B0 /* Categories */,
-				B34352BE1DB8ADD6004A43B0 /* JSPrefixHeader.pch */,
+				B34352CA1DB8D564004A43B0 /* Categories */,
+				B34352CF1DB8D564004A43B0 /* Controller */,
+				B34352D41DB8D564004A43B0 /* Others */,
+				B34352D81DB8D564004A43B0 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B34352CA1DB8D564004A43B0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B34352CB1DB8D564004A43B0 /* UIImage+JSExtension.h */,
+				B34352CC1DB8D564004A43B0 /* UIImage+JSExtension.m */,
+				B34352CD1DB8D564004A43B0 /* UIView+JSExtension.h */,
+				B34352CE1DB8D564004A43B0 /* UIView+JSExtension.m */,
+				B34352EF1DB8DD6B004A43B0 /* UIBarButtonItem+JSExtension.h */,
+				B34352F01DB8DD6B004A43B0 /* UIBarButtonItem+JSExtension.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B34352CF1DB8D564004A43B0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B34352D01DB8D564004A43B0 /* JSMainViewController.h */,
+				B34352D11DB8D564004A43B0 /* JSMainViewController.m */,
+				B34352D21DB8D564004A43B0 /* JSNavigationController.h */,
+				B34352D31DB8D564004A43B0 /* JSNavigationController.m */,
+				B34352E61DB8D8BC004A43B0 /* JSNewsViewController.h */,
+				B34352E71DB8D8BC004A43B0 /* JSNewsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B34352D41DB8D564004A43B0 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				B34352D51DB8D564004A43B0 /* AppDelegate.h */,
+				B34352D61DB8D564004A43B0 /* AppDelegate.m */,
+				B34352D71DB8D564004A43B0 /* main.m */,
 			);
 			path = Others;
 			sourceTree = "<group>";
 		};
-		B34352BF1DB8AE69004A43B0 /* Categories */ = {
+		B34352D81DB8D564004A43B0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B34352C01DB8AEDB004A43B0 /* UIView+JSExtension.h */,
-				B34352C11DB8AEDB004A43B0 /* UIView+JSExtension.m */,
-				B34352C31DB8CEAD004A43B0 /* UIImage+JSExtension.h */,
-				B34352C41DB8CEAD004A43B0 /* UIImage+JSExtension.m */,
+				B34352D91DB8D564004A43B0 /* JSLeftMenu.h */,
+				B34352DA1DB8D564004A43B0 /* JSLeftMenu.m */,
+				B34352E91DB8DA43004A43B0 /* JSTitleView.h */,
+				B34352EA1DB8DA43004A43B0 /* JSTitleView.m */,
 			);
-			path = Categories;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,12 +233,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B34352B91DB8ABD1004A43B0 /* JSLeftMenu.m in Sources */,
-				B34352A01DB7619A004A43B0 /* AppDelegate.m in Sources */,
-				B34352C51DB8CEAD004A43B0 /* UIImage+JSExtension.m in Sources */,
-				B34352B41DB8A9E0004A43B0 /* JSMainViewController.m in Sources */,
-				B343529D1DB7619A004A43B0 /* main.m in Sources */,
-				B34352C21DB8AEDB004A43B0 /* UIView+JSExtension.m in Sources */,
+				B34352DE1DB8D564004A43B0 /* JSNavigationController.m in Sources */,
+				B34352F11DB8DD6B004A43B0 /* UIBarButtonItem+JSExtension.m in Sources */,
+				B34352DB1DB8D564004A43B0 /* UIImage+JSExtension.m in Sources */,
+				B34352E81DB8D8BC004A43B0 /* JSNewsViewController.m in Sources */,
+				B34352DC1DB8D564004A43B0 /* UIView+JSExtension.m in Sources */,
+				B34352DD1DB8D564004A43B0 /* JSMainViewController.m in Sources */,
+				B34352E01DB8D564004A43B0 /* main.m in Sources */,
+				B34352EB1DB8DA43004A43B0 /* JSTitleView.m in Sources */,
+				B34352E11DB8D564004A43B0 /* JSLeftMenu.m in Sources */,
+				B34352DF1DB8D564004A43B0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +362,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 3398J37KJL;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/NetEaseNews/Others/JSPrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NetEaseNews/JSPrefixHeader.pch";
 				INFOPLIST_FILE = NetEaseNews/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -329,7 +377,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 3398J37KJL;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/NetEaseNews/Others/JSPrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NetEaseNews/JSPrefixHeader.pch";
 				INFOPLIST_FILE = NetEaseNews/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
