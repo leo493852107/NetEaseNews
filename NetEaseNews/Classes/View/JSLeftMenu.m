@@ -24,9 +24,7 @@
         
         CGFloat alpha = 0.2;
         
-        UIButton *newsButton = [self setBtnWithIcon:@"sidebar_nav_news" bgColor:JSColorRGBA(202, 68, 73, alpha) title:@"新闻"];
-        [self buttonClick:newsButton];
-        
+        [self setBtnWithIcon:@"sidebar_nav_news" bgColor:JSColorRGBA(202, 68, 73, alpha) title:@"新闻"];
         [self setBtnWithIcon:@"sidebar_nav_reading" bgColor:JSColorRGBA(190, 111, 69, alpha) title:@"订阅"];
         [self setBtnWithIcon:@"sidebar_nav_photo" bgColor:JSColorRGBA(76, 132, 190, alpha) title:@"图片"];
         [self setBtnWithIcon:@"sidebar_nav_video" bgColor:JSColorRGBA(101, 170, 78, alpha) title:@"视频"];
@@ -36,6 +34,12 @@
     return self;
 }
 
+- (void)setDelegate:(id<JSLeftMenuDelegate>)delegate {
+    _delegate = delegate;
+    
+    // 默认选择新闻
+    [self buttonClick:[self.subviews firstObject]];
+}
 
 /**
  添加按钮
@@ -49,6 +53,7 @@
 
 - (UIButton *)setBtnWithIcon:(NSString *)icon bgColor:(UIColor *)bgcolor title:(NSString *)title {
     UIButton *btn = [[UIButton alloc] init];
+    btn.tag = self.subviews.count;
     [btn addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:btn];
     
@@ -93,9 +98,16 @@
 
 #pragma mark - 监听按钮点击
 - (void)buttonClick:(UIButton *)button {
+    // 1.通知代理
+    if ([self.delegate respondsToSelector:@selector(leftMenu:didSelectButtonFromIndex:toIndex:)]) {
+        [self.delegate leftMenu:self didSelectButtonFromIndex:self.selectedButton.tag toIndex:button.tag];
+    }
+    
+    // 2.控制按钮的状态
     self.selectedButton.selected = NO;
     button.selected = YES;
     self.selectedButton = button;
+    
 }
 
 

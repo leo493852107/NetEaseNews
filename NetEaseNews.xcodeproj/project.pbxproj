@@ -21,6 +21,11 @@
 		B34352E81DB8D8BC004A43B0 /* JSNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B34352E71DB8D8BC004A43B0 /* JSNewsViewController.m */; };
 		B34352EB1DB8DA43004A43B0 /* JSTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B34352EA1DB8DA43004A43B0 /* JSTitleView.m */; };
 		B34352F11DB8DD6B004A43B0 /* UIBarButtonItem+JSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B34352F01DB8DD6B004A43B0 /* UIBarButtonItem+JSExtension.m */; };
+		B3B396E21DB9ACA50040DE51 /* JSReadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B396E11DB9ACA50040DE51 /* JSReadingViewController.m */; };
+		B3B396E81DB9BF4A0040DE51 /* JSPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B396E71DB9BF4A0040DE51 /* JSPhotoViewController.m */; };
+		B3B396EB1DB9BF580040DE51 /* JSVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B396EA1DB9BF580040DE51 /* JSVideoViewController.m */; };
+		B3B396EE1DB9BF620040DE51 /* JSCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B396ED1DB9BF620040DE51 /* JSCommentViewController.m */; };
+		B3B396F11DB9BF6D0040DE51 /* JSRadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B396F01DB9BF6D0040DE51 /* JSRadioViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +55,16 @@
 		B34352EA1DB8DA43004A43B0 /* JSTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTitleView.m; sourceTree = "<group>"; };
 		B34352EF1DB8DD6B004A43B0 /* UIBarButtonItem+JSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+JSExtension.h"; sourceTree = "<group>"; };
 		B34352F01DB8DD6B004A43B0 /* UIBarButtonItem+JSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+JSExtension.m"; sourceTree = "<group>"; };
+		B3B396E01DB9ACA50040DE51 /* JSReadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSReadingViewController.h; sourceTree = "<group>"; };
+		B3B396E11DB9ACA50040DE51 /* JSReadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSReadingViewController.m; sourceTree = "<group>"; };
+		B3B396E61DB9BF4A0040DE51 /* JSPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPhotoViewController.h; sourceTree = "<group>"; };
+		B3B396E71DB9BF4A0040DE51 /* JSPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPhotoViewController.m; sourceTree = "<group>"; };
+		B3B396E91DB9BF580040DE51 /* JSVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSVideoViewController.h; sourceTree = "<group>"; };
+		B3B396EA1DB9BF580040DE51 /* JSVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSVideoViewController.m; sourceTree = "<group>"; };
+		B3B396EC1DB9BF620040DE51 /* JSCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCommentViewController.h; sourceTree = "<group>"; };
+		B3B396ED1DB9BF620040DE51 /* JSCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCommentViewController.m; sourceTree = "<group>"; };
+		B3B396EF1DB9BF6D0040DE51 /* JSRadioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRadioViewController.h; sourceTree = "<group>"; };
+		B3B396F01DB9BF6D0040DE51 /* JSRadioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRadioViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +149,16 @@
 				B34352D31DB8D564004A43B0 /* JSNavigationController.m */,
 				B34352E61DB8D8BC004A43B0 /* JSNewsViewController.h */,
 				B34352E71DB8D8BC004A43B0 /* JSNewsViewController.m */,
+				B3B396E01DB9ACA50040DE51 /* JSReadingViewController.h */,
+				B3B396E11DB9ACA50040DE51 /* JSReadingViewController.m */,
+				B3B396E61DB9BF4A0040DE51 /* JSPhotoViewController.h */,
+				B3B396E71DB9BF4A0040DE51 /* JSPhotoViewController.m */,
+				B3B396E91DB9BF580040DE51 /* JSVideoViewController.h */,
+				B3B396EA1DB9BF580040DE51 /* JSVideoViewController.m */,
+				B3B396EC1DB9BF620040DE51 /* JSCommentViewController.h */,
+				B3B396ED1DB9BF620040DE51 /* JSCommentViewController.m */,
+				B3B396EF1DB9BF6D0040DE51 /* JSRadioViewController.h */,
+				B3B396F01DB9BF6D0040DE51 /* JSRadioViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -235,12 +260,17 @@
 			files = (
 				B34352DE1DB8D564004A43B0 /* JSNavigationController.m in Sources */,
 				B34352F11DB8DD6B004A43B0 /* UIBarButtonItem+JSExtension.m in Sources */,
+				B3B396EB1DB9BF580040DE51 /* JSVideoViewController.m in Sources */,
 				B34352DB1DB8D564004A43B0 /* UIImage+JSExtension.m in Sources */,
 				B34352E81DB8D8BC004A43B0 /* JSNewsViewController.m in Sources */,
 				B34352DC1DB8D564004A43B0 /* UIView+JSExtension.m in Sources */,
 				B34352DD1DB8D564004A43B0 /* JSMainViewController.m in Sources */,
+				B3B396F11DB9BF6D0040DE51 /* JSRadioViewController.m in Sources */,
+				B3B396EE1DB9BF620040DE51 /* JSCommentViewController.m in Sources */,
 				B34352E01DB8D564004A43B0 /* main.m in Sources */,
 				B34352EB1DB8DA43004A43B0 /* JSTitleView.m in Sources */,
+				B3B396E21DB9ACA50040DE51 /* JSReadingViewController.m in Sources */,
+				B3B396E81DB9BF4A0040DE51 /* JSPhotoViewController.m in Sources */,
 				B34352E11DB8D564004A43B0 /* JSLeftMenu.m in Sources */,
 				B34352DF1DB8D564004A43B0 /* AppDelegate.m in Sources */,
 			);
@@ -405,6 +435,7 @@
 				B34352B11DB7619A004A43B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

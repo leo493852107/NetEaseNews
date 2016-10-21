@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JSNewsViewController : UIViewController
+@interface JSNewsViewController : UITableViewController
 
 @end
